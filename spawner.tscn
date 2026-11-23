@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://c3k21tif620k1"]
+
+[ext_resource type="Script" uid="uid://dbqj7m3mt3eut" path="res://spawner.gd" id="1_yp5lu"]
+[ext_resource type="Texture2D" uid="uid://bnpovw6x4olc" path="res://icon.svg" id="2_ttk4a"]
+
+[node name="Spawner" type="Node2D" unique_id=517699731]
+script = ExtResource("1_yp5lu")
+
+[node name="Icon" type="Sprite2D" parent="." unique_id=2099672395]
+modulate = Color(0, 1, 0, 1)
+position = Vector2(0, -64)
+texture = ExtResource("2_ttk4a")
