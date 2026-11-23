@@ -1,0 +1,7 @@
+[gd_scene format=3 uid="uid://cq3jnnm5v2vl7"]
+
+[ext_resource type="Script" uid="uid://brfhb87ydrs84" path="res://Units/tank.gd" id="1_6lwfj"]
+
+[node name="Tank" type="CharacterBody2D" unique_id=687923038]
+script = ExtResource("1_6lwfj")
+movement_speed = null

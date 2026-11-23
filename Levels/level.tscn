@@ -1,0 +1,22 @@
+[gd_scene format=3 uid="uid://jxe2yyn6gmnh"]
+
+[ext_resource type="Script" uid="uid://c430h2bfwvais" path="res://Levels/level.gd" id="1_gtnvv"]
+[ext_resource type="Texture2D" uid="uid://cmpyeesi7qtof" path="res://Assets/Visual/bg_forest.png" id="2_gtnvv"]
+
+[node name="Level" type="Node2D" unique_id=1063611518]
+script = ExtResource("1_gtnvv")
+
+[node name="Timer" type="Timer" parent="." unique_id=1396201284]
+
+[node name="Units" type="Node" parent="." unique_id=690463428]
+
+[node name="Spawners" type="Node" parent="." unique_id=1921873976]
+
+[node name="Audio" type="Node" parent="." unique_id=1851186274]
+
+[node name="CanvasLayer" type="CanvasLayer" parent="." unique_id=1005024158]
+
+[node name="Background" type="Sprite2D" parent="." unique_id=1211514023]
+position = Vector2(1488.426, 323.49997)
+scale = Vector2(0.6027777, 0.6027777)
+texture = ExtResource("2_gtnvv")
