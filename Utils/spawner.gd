@@ -5,12 +5,12 @@ extends Node2D
 @export var unit_mapping = {
 	"unit_1": "res://Units/tank.tscn",
 	"unit_2": "res://Units/base_unit.tscn",
-	"unit_3": "",
+	"unit_3": "res://Units/pesek.tscn",
 	"unit_4": "",
 	"unit_5": "",
 	"unit_6": "res://Units/tank.tscn",
 	"unit_7": "res://Units/base_unit.tscn",
-	"unit_8": "",
+	"unit_8": "res://Units/pesek.tscn",
 	"unit_9": "",
 	"unit_10": ""
 }

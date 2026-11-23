@@ -1,6 +1,6 @@
 [gd_scene format=3 uid="uid://c3k21tif620k1"]
 
-[ext_resource type="Script" uid="uid://dbqj7m3mt3eut" path="res://spawner.gd" id="1_yp5lu"]
+[ext_resource type="Script" uid="uid://dbqj7m3mt3eut" path="res://Utils/spawner.gd" id="1_yp5lu"]
 [ext_resource type="Texture2D" uid="uid://bnpovw6x4olc" path="res://icon.svg" id="2_ttk4a"]
 
 [node name="Spawner" type="Node2D" unique_id=517699731]

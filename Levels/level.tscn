@@ -2,7 +2,7 @@
 
 [ext_resource type="Script" uid="uid://c430h2bfwvais" path="res://Levels/level.gd" id="1_gtnvv"]
 [ext_resource type="Texture2D" uid="uid://cmpyeesi7qtof" path="res://Assets/Visual/bg_forest.png" id="2_gtnvv"]
-[ext_resource type="PackedScene" uid="uid://c3k21tif620k1" path="res://spawner.tscn" id="2_xto7t"]
+[ext_resource type="PackedScene" uid="uid://c3k21tif620k1" path="res://Utils/spawner.tscn" id="2_xto7t"]
 
 [node name="Level" type="Node2D" unique_id=1063611518]
 script = ExtResource("1_gtnvv")
