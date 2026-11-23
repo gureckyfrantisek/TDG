@@ -3,6 +3,13 @@ class_name Unit
 
 # Common params to override
 @export var movement_speed = 100
+const max_health = 100
+@export var current_health = max_health # max health and health are used for health bar
+@export var damage = 20
+@export var attack_cooldown = 5 # in seconds
+@export var input_cooldown = 10 # in seconds
+var is_moving = true
+var can_attack = true
 
 # Movement management
 @export_enum("left", "right") var side = "left"
