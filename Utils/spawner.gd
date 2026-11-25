@@ -17,6 +17,12 @@ extends Node2D
 
 @onready var level_node = get_parent()
 
+func _ready():
+	if side == "right":
+		$AnimatedSprite2D.flip_h = true
+		
+	$AnimatedSprite2D.play("idle")
+
 func spawn_unit(unit_resource: Resource) -> void:
 	if not unit_resource:
 		print("No unit to spawn")
