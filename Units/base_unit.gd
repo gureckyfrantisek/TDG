@@ -10,6 +10,8 @@ var current_health = max_health # max health and health are used for health bar
 @export var input_cooldown = 10 # in seconds
 var is_moving = true
 var can_attack = true
+@export var cost = 50
+@export var kill_cost = 60
 
 # Movement management
 @export_enum("left", "right") var side = "left"

@@ -5,6 +5,7 @@
 [ext_resource type="Texture2D" uid="uid://dkpsp2so5sn0v" path="res://Assets/Visual/pesek_animace/pesek-Sheet.png" id="3_01olx"]
 
 [sub_resource type="RectangleShape2D" id="RectangleShape2D_jbhrp"]
+size = Vector2(15, 24)
 
 [sub_resource type="AtlasTexture" id="AtlasTexture_1714i"]
 atlas = ExtResource("2_01olx")
@@ -182,6 +183,7 @@ animations = [{
 script = ExtResource("1_rkv88")
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="." unique_id=1101638434]
+position = Vector2(1.5, 0)
 shape = SubResource("RectangleShape2D_jbhrp")
 
 [node name="AnimatedSprite2D" type="AnimatedSprite2D" parent="." unique_id=1881111555]
